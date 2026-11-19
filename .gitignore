@@ -1,0 +1,45 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local settings, credentials, and keys (never commit)
+.env
+*.pem
+*.key
+
+# Terraform state, variables, plans, and provider binaries
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+crash.log
+
+# Rendered templates and temporary IAM files
+*.rendered
+policy.json
+trust.json
+
+# Personal reports, presentation notes, media, and local helper scripts
+*.docx
+*.pdf
+*.png
+*.jpg
+screenshots/
+PRESENTATION*.md
+DEMO_PRESENTATION_RESULTS.md
+ASSIGNMENT_2_*.md
+SOA_VS_MICROSERVICES_REPORT.md
+requirements.md
+upload_test.py
+populate_word_template.py
+check_order.py
+check_pages.py
+convert_docx_to_pdf.ps1
+
+# OS / downloads
+*.pkg
+.DS_Store
+Thumbs.db
